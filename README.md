@@ -40,9 +40,10 @@ LeetCode
     └── SqrtX.java
 
 ```
-💻 Language
+## 💻 Language
 Java
-🎯 Goal
+
+## 🎯 Goal
 
 Practice Data Structures and Algorithms consistently and improve problem-solving skills by solving LeetCode problems.
 
