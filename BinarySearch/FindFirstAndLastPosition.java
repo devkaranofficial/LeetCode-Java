@@ -20,7 +20,7 @@
                         int left_mid = left_low + (left_high - left_low)/2;
                         if(nums[left_mid] == target)
                         {
-                            start = left_mid;;
+                            start = left_mid;
                             left_high = left_mid - 1;
                         }
                         else if(nums[left_mid] < target)
