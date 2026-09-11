@@ -38,7 +38,9 @@ LeetCode
 │
 └── Math
     └── SqrtX.java
-    💻 Language
+
+```
+💻 Language
 Java
 🎯 Goal
 
