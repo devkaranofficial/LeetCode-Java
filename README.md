@@ -1,18 +1,6 @@
-## 🧠 LeetCode — Java DSA Journey
+# 🧠 LeetCode — Java DSA Journey
 
-> 🚀 Building strong Data Structures & Algorithms fundamentals with **Java**, one problem at a time.
-
-<p align="center">
-
-  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk" />
-
-  <img src="https://img.shields.io/badge/DSA-LeetCode-yellow?style=for-the-badge&logo=leetcode" />
-
-  <img src="https://img.shields.io/badge/Focus-Problem%20Solving-blue?style=for-the-badge" />
-
-  <img src="https://img.shields.io/badge/Progress-18%2B%20Problems-success?style=for-the-badge" />
-
-</p>
+> 🚀 Building strong Data Structures & Algorithms fundamentals with Java, one problem at a time.
 
 ---
 
@@ -20,50 +8,111 @@
 
 This repository documents my journey of learning **Data Structures & Algorithms using Java** through LeetCode.
 
-My goal isn't just to solve problems — it's to understand the **patterns, logic, time complexity, and problem-solving techniques** behind them.
+The goal is not just to solve problems, but to understand:
 
-### 🎯 Current Focus
+- 🧠 Problem-solving patterns
+- ⚡ Optimization techniques
+- ⏱️ Time complexity
+- 💾 Space complexity
+- ☕ Java implementation
+- 🔍 How to approach unfamiliar problems
+
+---
+
+## 📊 Current Progress
+
+| Category | Progress |
+|---|---:|
+| 🧩 LeetCode Problems Solved | **65** |
+| 🐙 Solutions Uploaded to GitHub | **65** |
+| 📤 Solutions Remaining | **0** |
+| 🟢 Easy | **34** |
+| 🟡 Medium | **31** |
+| 🔴 Hard | **0** |
+| 💻 Language | **Java** |
+| 🎯 Platform | **LeetCode** |
+
+### 📁 Repository Structure
 
 ```text
-Java
-  ↓
-Arrays
-  ↓
-Two Pointers
-  ↓
-Sliding Window
-  ↓
-Binary Search
-  ↓
-Hashing
-  ↓
-Strings
-  ↓
-Stack & Queue
-  ↓
-Linked List
-  ↓
-Trees
-  ↓
-Graphs
-  ↓
-Dynamic Programming
+LeetCode-Java/
+│
+├── Arrays/
+├── BinarySearch/
+├── Math/
+└── LinkedList/
 ```
 
 ---
 
-# 📊 Progress
+# 🗂️ Problem Categories
 
-| Category           |                      Progress |
-| ------------------ | ----------------------------: |
-| 🧩 Problems Solved |                           18+ |
-| 🟢 Easy            |                           14+ |
-| 🟡 Medium          |                      Building |
-| 🔴 Hard            |                   Future Goal |
-| 💻 Language        |                          Java |
-| 🎯 Current Topic   | Two Pointers / Sliding Window |
-| 📚 Main Platform   |                      LeetCode |
+## 📦 Arrays
 
+**40 solutions**
+
+Topics covered:
+
+- Array traversal
+- Two Pointers
+- Sliding Window
+- Array manipulation
+- Greedy algorithms
+- Sorting
+- Prefix/Suffix techniques
+- In-place operations
+- Kadane's Algorithm
+- Hashing-based array problems
+
+---
+
+## 🔍 Binary Search
+
+**3 solutions**
+
+Problems include:
+
+- Binary Search — #704
+- Search Insert Position — #35
+- Find First and Last Position — #34
+
+---
+
+## 🧮 Math
+
+**1 solution**
+
+- Sqrt(x) — #69
+
+---
+
+## 🔗 Linked List
+
+**21 solutions**
+
+Problems include:
+
+- Add Two Numbers — #2
+- Remove Nth Node From End of List — #19
+- Merge Two Sorted Lists — #21
+- Swap Nodes in Pairs — #24
+- Rotate List — #61
+- Remove Duplicates from Sorted List — #83
+- Partition List — #86
+- Reverse Linked List II — #92
+- Copy List with Random Pointer — #138
+- Linked List Cycle — #141
+- Linked List Cycle II — #142
+- Reorder List — #143
+- Sort List — #148
+- Intersection of Two Linked Lists — #160
+- Remove Linked List Elements — #203
+- Reverse Linked List — #206
+- Palindrome Linked List — #234
+- Delete Node in a Linked List — #237
+- Odd Even Linked List — #328
+- Add Two Numbers II — #445
+- Middle of the Linked List — #876
 
 ---
 
@@ -71,153 +120,72 @@ Dynamic Programming
 
 ### 🔍 Searching
 
-| Pattern                  | Status |
-| ------------------------ | :----: |
-| Binary Search            |    ✅  |
-| Search Space Reduction   |    ✅  |
-| Boundary-based Searching |    🔄  |
-
+| Pattern | Status |
+|---|---|
+| Binary Search | ✅ |
+| Search Space Reduction | ✅ |
+| Boundary-based Searching | 🔄 |
 
 ### 👉 Two Pointers
 
-| Pattern                             | Status |
-| ----------------------------------- | :----: |
-| Opposite-direction pointers         |    ✅   |
-| Same-direction pointers             |    ✅   |
-| Fast & slow pointer movement        |    🔄   |
-| In-place manipulation               |    ✅   |
-| Two-pointer optimization            |    ✅   |
-| Sorted array techniques             |    ✅   |
-| Three-pointer / Dutch National Flag |    ✅   |
-
-### 📦 Arrays
-
-| Pattern                  | Status |
-| ------------------------ | :----: |
-| In-place operations      |    ✅   |
-| Array rotation           |    ✅   |
-| Array traversal          |    ✅   |
-| Prefix/Suffix techniques |    🔄   |
-| One-pass algorithms      |    ✅   |
-| Greedy techniques        |    ✅   |
-| Array manipulation       |    ✅   |
-| Sorting-based techniques |    🔄   |
-
+| Pattern | Status |
+|---|---|
+| Opposite-direction pointers | ✅ |
+| Same-direction pointers | ✅ |
+| Fast & Slow Pointers | ✅ |
+| In-place manipulation | ✅ |
+| Sorted array techniques | ✅ |
+| Three Pointer / Dutch National Flag | ✅ |
 
 ### 🪟 Sliding Window
-| Pattern                        | Status |
-| ------------------------------ | :----: |
-| Expanding a window             |    ✅   |
-| Shrinking a window             |    ✅   |
-| Maintaining a valid window     |    ✅   |
-| Minimum window problems        |    🔄   |
-| Maximum window problems        |    🔄   |
-| Contiguous subarray techniques |    ✅   |
-| HashSet-based sliding window   |    🔄   |
 
+| Pattern | Status |
+|---|---|
+| Expanding a window | ✅ |
+| Shrinking a window | ✅ |
+| Maintaining a valid window | ✅ |
+| Contiguous subarray techniques | ✅ |
+| HashSet-based sliding window | 🔄 |
 
+### 🔗 Linked List
+
+| Pattern | Status |
+|---|---|
+| Traversal | ✅ |
+| Fast & Slow Pointers | ✅ |
+| Dummy Node | ✅ |
+| Two Pointer Techniques | ✅ |
+| Reversal | ✅ |
+| In-place manipulation | ✅ |
+| Cycle Detection | ✅ |
+| List Reordering | ✅ |
+| Merge Techniques | ✅ |
 
 ### 🗂️ Hashing
 
-| Pattern             | Status |
-| ------------------- | :----: |
-| HashSet             |   🔄   |
-| HashMap             |   🔄   |
-| Frequency counting  |   🔄   |
-| Duplicate detection |   🔄   |
-| Fast lookup         |   🔄   |
-
-
-### 📚 Coming Soon
-
-| Topic                 |   Status   |
-| --------------------- | :--------: |
-| Strings               | ⏳ Upcoming |
-| Stack                 | ⏳ Upcoming |
-| Queue                 | ⏳ Upcoming |
-| Linked List           | ⏳ Upcoming |
-| Recursion             | ⏳ Upcoming |
-| Trees                 | ⏳ Upcoming |
-| Heap / Priority Queue | ⏳ Upcoming |
-| Graphs                | ⏳ Upcoming |
-| Dynamic Programming   |  ⏳ Future  |
-
-
----
-
-# ✅ Solved Problems
-
-## 🔍 Binary Search
-
-|   # | Problem                                 | Difficulty | Pattern       |
-| --: | --------------------------------------- | :--------: | ------------- |
-| 704 | Binary Search                           |   🟢 Easy  | Binary Search |
-|  35 | Search Insert Position                  |   🟢 Easy  | Binary Search |
-|  34 | Find First and Last Position of Element |  🟡 Medium | Binary Search |
-|  69 | Sqrt(x)                                 |   🟢 Easy  | Binary Search |
-
-
----
-
-## 👉 Two Pointers
-
-|   # | Problem                             | Difficulty | Pattern        |
-| --: | ----------------------------------- | :--------: | -------------- |
-|  27 | Remove Element                      |   🟢 Easy  | Two Pointers   |
-|  26 | Remove Duplicates from Sorted Array |   🟢 Easy  | Two Pointers   |
-| 283 | Move Zeroes                         |   🟢 Easy  | Two Pointers   |
-| 977 | Squares of a Sorted Array           |   🟢 Easy  | Two Pointers   |
-| 125 | Valid Palindrome                    |   🟢 Easy  | Two Pointers   |
-| 167 | Two Sum II – Input Array Is Sorted  |   🟢 Easy  | Two Pointers   |
-|  11 | Container With Most Water           |  🟡 Medium | Two Pointers   |
-|  15 | 3Sum                                |  🟡 Medium | Two Pointers   |
-|  75 | Sort Colors                         |  🟡 Medium | Three Pointers |
-
-
----
-
-## Sliding Window
-
-|   # | Problem                   | Difficulty | Pattern        |
-| --: | ------------------------- | :--------: | -------------- |
-| 209 | Minimum Size Subarray Sum |  🟡 Medium | Sliding Window |
-
----
-
-## 🧩 Array Manipulation
-
-|   # | Problem                         | Difficulty | Pattern              |
-| --: | ------------------------------- | :--------: | -------------------- |
-|   1 | Two Sum                         |   🟢 Easy  | Array / Hashing      |
-|  88 | Merge Sorted Array              |   🟢 Easy  | Reverse Two Pointers |
-| 189 | Rotate Array                    |  🟡 Medium | Array Reversal       |
-| 121 | Best Time to Buy and Sell Stock |   🟢 Easy  | One Pass / Greedy    |
+| Pattern | Status |
+|---|---|
+| HashSet | 🔄 |
+| HashMap | 🔄 |
+| Frequency Counting | 🔄 |
+| Duplicate Detection | 🔄 |
+| Fast Lookup | 🔄 |
 
 ---
 
 # 📈 Learning Progress
 
 ```text
-Arrays              ████████████████████  Strong Foundation
-
-Binary Search       ████████████████████  Strong Foundation
-
-Two Pointers        ████████████████████  Strong Foundation
-
-Sliding Window      ████████████░░░░░░░░  Learning
-
-Hashing             ███████░░░░░░░░░░░░░  Starting
-
-Strings             ██░░░░░░░░░░░░░░░░░░  Upcoming
-
+Arrays              ████████████████████  Strong
+Binary Search       ████████████████████  Strong
+Two Pointers        ████████████████████  Strong
+Sliding Window      ███████████████░░░░░  Learning
+Linked List         ████████████████████  Strong
+Hashing             ██████████░░░░░░░░░░  Learning
+Strings             ███░░░░░░░░░░░░░░░░░  Upcoming
 Stack & Queue       ░░░░░░░░░░░░░░░░░░░░  Upcoming
-
-Linked List         ░░░░░░░░░░░░░░░░░░░░  Upcoming
-
 Trees               ░░░░░░░░░░░░░░░░░░░░  Upcoming
-
 Graphs              ░░░░░░░░░░░░░░░░░░░░  Upcoming
-
 Dynamic Programming ░░░░░░░░░░░░░░░░░░░░  Future
 ```
 
@@ -225,35 +193,44 @@ Dynamic Programming ░░░░░░░░░░░░░░░░░░░░
 
 # 🗺️ DSA Roadmap
 
-🗺️ DSA Roadmap
 ### Phase 1 — Foundations
- Java Basics
- Arrays
- Binary Search
- Two Pointers
- Sliding Window
- HashMap / HashSet
- Strings
+
+- Java Basics
+- Arrays
+- Binary Search
+- Two Pointers
+- Sliding Window
+- HashMap / HashSet
+- Strings
+
 ### Phase 2 — Core Data Structures
- Stack
- Queue
- Linked List
- Recursion
+
+- Stack
+- Queue
+- Linked List
+- Recursion
+
 ### Phase 3 — Advanced Structures
- Trees
- Binary Search Trees
- Heap / Priority Queue
- Graphs
+
+- Trees
+- Binary Search Trees
+- Heap / Priority Queue
+- Graphs
+
 ### Phase 4 — Advanced Algorithms
- Backtracking
- Greedy
- Dynamic Programming
- Advanced Graph Algorithms
+
+- Backtracking
+- Greedy
+- Dynamic Programming
+- Advanced Graph Algorithms
+
 ### Phase 5 — Interview Preparation
- Medium Problems
- Timed Practice
- LeetCode Contests
- Mock Interviews
+
+- Medium Problems
+- Timed Practice
+- LeetCode Contests
+- Mock Interviews
+- Company-specific DSA Preparation
 
 ---
 
@@ -293,21 +270,44 @@ Java Implementation
 
 ---
 
-# 📌 Goals
+# 🎯 Goals
 
-* 🎯 Build strong DSA fundamentals
-* ☕ Become confident with Java for interviews
-* 🧠 Recognize common problem-solving patterns
-* 📈 Progress from Easy → Medium → Hard
-* 🏆 Participate in LeetCode contests
-* 💼 Prepare for software engineering interviews
+- 🎯 Build strong DSA fundamentals
+- ☕ Become confident with Java for interviews
+- 🧠 Recognize common problem-solving patterns
+- 📈 Progress from Easy → Medium → Hard
+- 🏆 Participate in LeetCode contests
+- 💼 Prepare for Software Engineering interviews
+- 🚀 Build a strong technical portfolio
 
 ---
 
-## 🚀 Progress > Perfection
+# 📌 Current Target
+
+```text
+65 LeetCode Problems Solved
+        ↓
+100 Problems
+        ↓
+150 Problems
+        ↓
+250 Problems
+        ↓
+300+ Problems
+```
+
+### 🎯 Next Milestone: **100 Problems**
+
+**35 more problems to go.**
+
+---
+
+# 🚀 Progress > Perfection
 
 Every problem solved is one more pattern understood.
 
-**One problem. One concept. One step forward.**
+> One problem.  
+> One concept.  
+> One step forward.
 
 ⭐ If you're also learning DSA, feel free to explore the solutions and follow along with the journey.
